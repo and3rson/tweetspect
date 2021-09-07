@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  api:
+    image: tweetspect
+    build:
+      context: .
+    restart: always
+    tty: true  # Colors
+    environment: &env
+      PYTHONUNBUFFERED: 1
+      TWITTER_API_KEY:
+      TWITTER_API_SECRET_KEY:
+    ports:
+      - "8000:8000"
