@@ -4,7 +4,7 @@ This app serves as a proxy to fetch Twitter posts & user feed.
 
 ## Stack
 
-- Python 3.8+
+- Python 3.7+
 - aiohttp
 - gunicorn
 - pydantic
@@ -23,7 +23,7 @@ This app serves as a proxy to fetch Twitter posts & user feed.
 ## Requirements
 
 - Docker & docker-compose - for building & running the application
-- Python 3.8+ - for testing & code style validation
+- Python 3.7+ - for testing & code style validation
 
 ## Prerequisites
 
