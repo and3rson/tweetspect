@@ -40,6 +40,9 @@ export TWITTER_API_SECRET_KEY=YOUR_TWITTER_API_SECRET_KEY
 # This step requires Docker & docker-compose.
 
 make run
+# ...or...
+docker-compose up --build
+
 # ...
 curl 127.0.0.1:8000/hashtags/python
 curl 127.0.0.1:8000/users/andunai?limit=10
