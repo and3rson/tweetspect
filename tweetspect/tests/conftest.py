@@ -15,12 +15,12 @@ def mock_env(monkeypatch):
 
 @pytest.fixture()
 def search_response() -> str:
-    with open(os.path.join(THIS_DIR, './tests/search_response.json'), 'r', encoding='utf-8') as fobj:
+    with open(os.path.join(THIS_DIR, './search_response.json'), 'r', encoding='utf-8') as fobj:
         return fobj.read()
 
 @pytest.fixture()
 def timeline_response() -> str:
-    with open(os.path.join(THIS_DIR, './tests/timeline_response.json'), 'r', encoding='utf-8') as fobj:
+    with open(os.path.join(THIS_DIR, './timeline_response.json'), 'r', encoding='utf-8') as fobj:
         return fobj.read()
 
 @pytest.fixture()
